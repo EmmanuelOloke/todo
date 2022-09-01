@@ -3,12 +3,6 @@ import TodoList from './components/TodoList/TodoList';
 import AddTodo from './components/AddTodo/AddTodo';
 import './App.css';
 
-// const testTodos = [
-//   { id: 1, title: 'Take out the trash' },
-//   { id: 2, title: 'Drive the car out for a wash' },
-//   { id: 3, title: 'Book holiday flight' },
-// ];
-
 function App() {
   const [todos, setTodos] = useState([]);
 
