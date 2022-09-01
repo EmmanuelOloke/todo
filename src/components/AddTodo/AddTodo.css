@@ -1,0 +1,24 @@
+.add-todo {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #7FCCD8;
+    outline: #7FBCD2;
+}
+
+.add {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #7FBCD2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: #7FCCD8;
+}
