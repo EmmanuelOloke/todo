@@ -29,7 +29,13 @@ const AddTodo = ({ addTodo }) => {
 
   return (
     <div className="add-todo">
-      <input type="text" className="input" value={input} onChange={handleChange} />
+      <input
+        type="text"
+        className="input"
+        value={input}
+        onChange={handleChange}
+        placeholder="Enter a todo item"
+      />
       <button className="add" type="submit" onClick={handleSubmit}>
         Add Todo
       </button>
