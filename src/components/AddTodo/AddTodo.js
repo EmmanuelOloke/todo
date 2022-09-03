@@ -22,7 +22,6 @@ const AddTodo = ({ addTodo }) => {
     };
 
     addTodo(todo);
-    console.log(todo.id, todo.title);
 
     setInput('');
   };
