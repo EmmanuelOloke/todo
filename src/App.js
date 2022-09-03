@@ -7,9 +7,7 @@ function App() {
   const [todos, setTodos] = useState([]);
 
   const deleteTodo = (id) => {
-    const newTodos = todos.filter((todo) => {
-      return todo.id !== id;
-    });
+    const newTodos = todos.filter((todo) => todo.id !== id);
     setTodos(newTodos);
   };
 
